@@ -29,7 +29,7 @@
 /// file: triangle.cc
 ///
 
-#include "acme.hh"
+#include <acme/acme.h>
 
 namespace acme
 {
@@ -129,7 +129,7 @@ namespace acme
     #define CMD "acme::triangle::vertex(): "
 
     ACME_ASSERT(i < 3,
-      CMD "index out of bounds [0,2].")
+      CMD "index out of bounds [0,2].");
     return this->m_vertex[i];
 
     #undef CMD
@@ -315,7 +315,7 @@ namespace acme
         v >= real(0.0) - tolerance && v <= real(1.0) + tolerance &&
         w >= real(0.0) - tolerance && w <= real(1.0) + tolerance)
     {
-      return this->layingPlane().isInside(point_in, tolerance);
+      return true;
     }
     else
     {

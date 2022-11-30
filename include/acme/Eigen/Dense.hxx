@@ -1,0 +1,7 @@
+#include "Core.hxx"
+#include "LU.hxx"
+#include "Cholesky.hxx"
+#include "QR.hxx"
+#include "SVD.hxx"
+#include "Geometry.hxx"
+#include "Eigenvalues.hxx"

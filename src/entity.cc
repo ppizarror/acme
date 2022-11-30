@@ -29,7 +29,7 @@
 /// file: entity.cc
 ///
 
-#include "acme.hh"
+#include <acme/acme.h>
 
 namespace acme
 {

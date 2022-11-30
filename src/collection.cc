@@ -29,7 +29,7 @@
 /// file: collection.cc
 ///
 
-#include "acme.hh"
+#include <acme/acme.h>
 
 namespace acme
 {
@@ -58,7 +58,7 @@ namespace acme
     : collection()
   {
     this->m_entities = entities;
-  }
+  };
 
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -96,7 +96,7 @@ namespace acme
   )
   {
     return this->m_entities[i];
-  }
+  };
 
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -107,7 +107,7 @@ namespace acme
     const
   {
     return this->m_entities[i];
-  }
+  };
 
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -1000,7 +1000,7 @@ namespace acme
       }
       else
       {
-        ACME_ERROR(CMD "non-clampable object detected.")
+        ACME_ERROR(CMD "non-clampable object detected.");
       }
     }
 
