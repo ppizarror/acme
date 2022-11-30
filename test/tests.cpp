@@ -71,7 +71,7 @@ TEST(AcmeTest, PointVectorTransformation) { // acme: test_08.cc
     ASSERT_TRUE(Intersection(vector_tmp, ground_vector));
 }
 
-TEST(AcmeTEST, RayPointIntersection) {
+TEST(AcmeTest, RayPointIntersection) {
     point Origin(0, 0, 0);
     vec3 Direction(0, 1, 0);
     ray Ray(Origin, Direction);
