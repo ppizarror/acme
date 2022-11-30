@@ -26,7 +26,7 @@
 */
 
 ///
-/// file: acme.hh
+/// file: acme.h
 ///
 
 #pragma once
@@ -181,5 +181,5 @@ namespace acme
 #endif
 
 ///
-/// eof: acme.hh
+/// eof: acme.h
 ///
