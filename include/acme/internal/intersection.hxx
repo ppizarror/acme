@@ -304,8 +304,8 @@ namespace acme
     real          tolerance = EPSILON      //!< Tolerance
   );
 
-  //! Intersection triangle with disk \n
-  //! WARNING: This function not supported!
+  //! Intersection between triangles \n
+  //! WARNING: This function does only support coplanar objects!
   bool
   Intersection(
     triangle const & triangle0_in,           //!< Input triangle
@@ -314,7 +314,7 @@ namespace acme
     real             tolerance = EPSILON     //!< Tolerance
   );
 
-  //! Intersection triangle with disk \n
+  //! Intersection between disks \n
   //! WARNING: This function not supported!
   bool
   Intersection(
@@ -624,7 +624,7 @@ namespace acme
     real          tolerance = EPSILON     //!< Tolerance
   );
 
-  //! Intersection ray with triangle \n
+  //! Intersection segment with triangle \n
   //! WARNING: This function does not support coplanarity!
   bool
   Intersection(
